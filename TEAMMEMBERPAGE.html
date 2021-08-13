@@ -1,0 +1,237 @@
+<html>
+<head>
+    <script src="externalScripts/jquery.js"></script>
+    <script> 
+    $(document).ready(function(){
+      $("#flip").click(function(){
+        $("#panel").slideToggle("slow");
+      });
+    });
+    </script>
+    <script src="externalScripts/jquery.js"></script>
+    <script> 
+    $(document).ready(function(){
+      $("#flip2").click(function(){
+        $("#panel2").slideToggle("slow");
+      });
+    });
+    </script>
+<title>Club Balonmano Huesca </title>
+
+<style type="text/css"> 
+#panel,#flip
+{
+padding:5px;
+text-align:center;
+background-color:#e5eecc;
+border:solid 1px #c3c3c3;
+}
+#panel
+{
+padding:100px;
+display:none;
+}
+#panel2,#flip2
+{
+padding:5px;
+text-align:center;
+background-color:#e5eecc;
+border:solid 1px #c3c3c3;
+}
+#panel2
+{
+padding:100px;
+display:none;
+}
+
+#background1 {
+  border: 1px solid black;
+  background: url(background/bg.jpg);
+  background-size: 100px 80px;
+  background-repeat: no-repeat;
+  padding: 15px;
+}
+.dropbtn {
+  background-color: 470000;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  
+  
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  color: white;
+  
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: A80101;
+  min-width: 161px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  border: 1px solid black;
+  
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  border: 1px solid black;
+  margin: -1px 0px;
+  
+  
+}
+
+.dropdown-content a:hover {color: white;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+  border: 1px;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: 7D0000;
+}
+span.a {
+  display: inline-block;
+  width: 1000px;
+  height: 250px;
+  padding: 10px;
+  border: 1px solid black;    
+  background-color: DAD3B5; 
+}
+html { 
+  background: url(background/historyBackground.jpg) no-repeat center fixed; 
+  background-size: cover;
+  background-color: red;
+}
+
+* {
+  
+  box-sizing: border-box;
+  text-decoration:none;
+}
+a{
+    color: white;
+}
+h2{
+    color:black;
+}
+</style>
+</head>
+<body>
+  <div align="center">
+    <a href="http://www.bada.de/es/Pagina-inicial-2.html" target="_blank">
+        <img src="sponsors/1.sponsor.svg" width="150px" height="50px"  border="0" >
+      </a>
+      <a href="https://www.avefor.com" target="_blank">
+        <img src="sponsors/2.sponsor.png" width="150px" height="50px"  border="0" >
+      </a>
+      <br></br>
+      <div align="center">
+    <a href="MAINPAGE.html">
+      <img src="teamLogo/teamLogo.png"  border="0" >
+    </a>
+    <br>
+  </br>
+  <div class="dropdown">
+    <button class="dropbtn" ><a href="MAINPAGE.html">MAIN PAGE</a></button>
+  </div>
+  <div class="dropdown">
+    <button class="dropbtn">ABOUT CLUB</button>
+    <div class="dropdown-content" align="left">
+    <a href="HISTORYPAGE.html">History</a>
+    <a href="ORGANIZEPAGE.html">Organization chart</a>
+    <a href="FACILITYPAGE.html">Our facility</a>
+    <a href="SPONSORPAGE.html">Sponsors</a>
+    </div>
+  </div>
+  <div class="dropdown">
+    <button class="dropbtn">OUR TEAM</button>
+    <div class="dropdown-content"align="left">
+    <a href="TEAMMEMBERPAGE.html">Team template</a>
+    <a href="COMPETITIONSPAGE.html">Competitions</a>
+    </div>
+  </div>
+  <div class="dropdown">
+    <button class="dropbtn" ><a href="CONTACTPAGE.html">CONTACT</a></button>
+  </div>
+  <div class="dropdown">
+    <button class="dropbtn" ><a href="SHOP.html">ONLINE MARKET</a></button>
+  </div>
+</div>
+
+<br></br><br></br><br></br>
+<div>  <span class="a"><h1>OUR TEAM</h1>
+  <div id="flip">Click to see the players.</div>
+  <div id="panel">
+    <img src="staffAndPlayers/player1.jpg" width="400px" height="500px"  border="0" >
+    <br></br><b>MIGUEL ESPINHA</b><br></br>(GOALKEEPER)<br></br>
+    <img src="staffAndPlayers/player2.jpg" width="400px" height="500px"  border="0" >
+    <br></br><b>JORGE BROTO LACAMBRA</b><br></br>(GOALKEEPER)<br></br>
+    <img src="staffAndPlayers/player3.jpg" width="400px" height="500px"  border="0" >
+    <br></br><b>DANIEL ARGUILLAS ÁLVAREZ</b><br></br>(GOALKEEPER)<br></br>
+    <img src="staffAndPlayers/player4.jpg" width="400px" height="500px"  border="0" >
+    <br></br><b>IVÁN MONTOYA MARTINEZ</b><br></br>(PIVOT)<br></br>
+    <img src="staffAndPlayers/player5.jpg" width="400px" height="500px"  border="0" >
+    <br></br><b>GERARD CARMONA AGUSTÍN</b><br></br>(WINGER)<br></br>
+    <img src="staffAndPlayers/player6.jpg" width="400px" height="500px"  border="0" >
+    <br></br><b>ALEXANDER TIOUMENTSEV</b><br></br>(CENTER)<br></br>
+    <img src="staffAndPlayers/player7.jpg" width="400px" height="500px"  border="0" >
+    <br></br><b>ADRIÀ PÉREZ MARTÍNEZ</b><br></br>(WINGER)<br></br>
+    <img src="staffAndPlayers/player8.jpg" width="400px" height="500px"  border="0" >
+    <br></br><b>DOMINGO LUIS MOSQUERA</b><br></br>(RIGHT SIDE)<br></br>
+    <img src="staffAndPlayers/player9.jpg" width="400px" height="500px"  border="0" >
+    <br></br><b>OLEKSANDR NEKRUSHETS</b><br></br>(LEFT SIDE)<br></br>
+    <img src="staffAndPlayers/player10.jpg" width="400px" height="500px"  border="0" >
+    <br></br><b>ALEX MARCELO FUENTES</b><br></br>(SIDE)<br></br>
+    <img src="staffAndPlayers/player11.jpg" width="400px" height="500px"  border="0" >
+    <br></br><b>OIER GARCÍA MENDIOLA</b><br></br>(WINGER)<br></br>
+    <img src="staffAndPlayers/player12.jpg" width="400px" height="500px"  border="0" >
+    <br></br><b>RODRIGO BENITES DIAZ</b><br></br>(PIVOT)<br></br>
+    <img src="staffAndPlayers/player13.jpg" width="400px" height="500px"  border="0" >
+    <br></br><b>JANEZ GUCEK</b><br></br>(LEFT SIDE)<br></br>
+    <img src="staffAndPlayers/player14.jpg" width="400px" height="500px"  border="0" >
+    <br></br><b>PAUL ADRIAN ALONSO NITOUT</b><br></br>(LEFT SIDE)<br></br>
+    <img src="staffAndPlayers/player15.jpg" width="400px" height="500px"  border="0" >
+    <br></br><b>SERGIO PÉREZ MANZANARES</b><br></br>(CENTER)<br></br>
+    <img src="staffAndPlayers/player16.jpg" width="400px" height="500px"  border="0" >
+    <br></br><b>MIGUEL MALO PUEYO</b><br></br>(CENTER)<br></br>
+    <img src="staffAndPlayers/player17.jpg" width="400px" height="500px"  border="0" >
+    <br></br><b>ASIER NIETO MARCOS</b><br></br>(LEFT SIDE)<br></br>
+    <img src="staffAndPlayers/player18.jpg" width="400px" height="500px"  border="0" >
+    <br></br><b>OÃO PINTO PAULOJ</b><br></br>(SIDE)<br></br>
+    <img src="staffAndPlayers/player19.jpg" width="400px" height="500px"  border="0" >
+    <br></br><b>ÁLVARO DEL VALLE NAVASA</b><br></br>(SIDE)<br></br>
+
+  </div>
+  <div id="flip2">Click to see the technical staff.</div>
+  <div id="panel2">
+    <img src="staffAndPlayers/staff1.jpg" width="400px" height="500px"  border="0" >
+    <br></br><b>JOSÉ NOLASCO MENARGUES</b><br></br>(COACH)<br></br>
+    <img src="staffAndPlayers/staff2.jpg" width="400px" height="500px"  border="0" >
+    <br></br><b>FERNANDO PÉREZ SANTOLARIA</b><br></br>(A.COACH)<br></br>
+    <img src="staffAndPlayers/staff3.jpg" width="400px" height="500px"  border="0" >
+    <br></br><b>PEDRO BARRIO MENOYO</b><br></br>(PHYSICAL TRAINER)<br></br>
+    <img src="staffAndPlayers/staff4.jpg" width="400px" height="500px"  border="0" >
+    <br></br><b>ALFONSO JUAN OLIVA</b><br></br>(PHYSIOTHERAPIST)<br></br>
+    <img src="staffAndPlayers/staff5.jpg" width="400px" height="500px"  border="0" >
+    <br></br><b>MARTÍN BLECUA ALONSO</b><br></br>(DOCTOR)<br></br>
+    <img src="staffAndPlayers/staff6.jpg" width="400px" height="500px"  border="0" >
+    <br></br><b>JOSÉ ANTONIO HERNÁNDEZ RAMOS</b><br></br>(TEAM DELEGATE)<br></br>
+    <img src="staffAndPlayers/staff7.jpg" width="400px" height="500px"  border="0" >
+    <br></br><b>SERGIO FERRER LEIVA</b><br></br>(PHYSIOTHERAPIST & PODIATRIST)<br></br>
+  </div>
+</span>
+      </div>
+</body>
+</html>

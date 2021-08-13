@@ -1,0 +1,213 @@
+<html>
+<head>
+<title>Club Balonmano Huesca </title>
+<script language = "JavaScript">
+
+  function pop() {
+    var a=document.getElementById("box1").value;
+        var b=document.getElementById("box2").value;
+        var c=document.getElementById("box3").value;
+        var pop=(a*35)+(b*35)+(c*10);
+        alert("This will cost "+pop+" €");
+  }
+  
+  </script>
+<style> 
+#background1 {
+  border: 1px solid black;
+  background: url(background/TEAMINFO.jpg);
+  background-size: 100px 80px;
+  background-repeat: no-repeat;
+  padding: 15px;
+}
+.dropbtn {
+  background-color: 470000;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  
+  
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  color: white;
+  
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: A80101;
+  min-width: 161px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  border: 1px solid black;
+  
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  border: 1px solid black;
+  margin: -1px 0px;
+  
+  
+}
+
+.dropdown-content a:hover {color: white;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+  border: 1px;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: 7D0000;
+}
+span.a {
+  display: inline-block;
+  width: 1000px;
+  height: 1000px;
+  padding: 10px;
+  border: 1px solid black;    
+  background-color: DAD3B5; 
+}
+span.b {
+  display: inline-block;
+  width: 200px;
+  height: 300px;
+  padding: 10px;
+  border: 0px solid black;    
+  background-color: DAD3B5; 
+}
+span.c {
+  display:inline-block ;
+  width: 120px;
+  height: 20px;
+  padding: 10px;
+  border: 0px solid black;    
+  background-color: DAD3B5; 
+  
+}
+span.d {
+  display:inline-block ;
+  width: 100px;
+  height: 20px;
+  padding: 10px;
+  border: 0px solid black;    
+  background-color: DAD3B5; 
+  
+}
+span.e {
+  display:inline-block ;
+  width: 380px;
+  height: 0px;
+  padding: 10px;
+  border: 0px solid black;    
+  background-color: DAD3B5; 
+  
+}
+html { 
+  background: url(background/historyBackground.jpg) no-repeat center fixed; 
+  background-size: cover;
+  background-color: red;
+}
+
+* {
+  
+  box-sizing: border-box;
+  text-decoration:none;
+}
+a{
+    color: white;
+}
+h2{
+    color:black;
+}
+.color{
+    color: white;
+}
+button {
+    margin:0 auto;
+    display:block;
+}
+</style>
+</head>
+<body>
+  <div align="center">
+    <a href="http://www.bada.de/es/Pagina-inicial-2.html" target="_blank">
+        <img src="sponsors/1.sponsor.svg" width="150px" height="50px"  border="0" >
+      </a>
+      
+      <a href="https://www.avefor.com" target="_blank">
+        <img src="sponsors/2.sponsor.png" width="150px" height="50px"  border="0" >
+      </a>
+      <br></br>
+      <div align="center">
+    <a href="MAINPAGE.html">
+      <img src="teamLogo/teamLogo.png"  border="0" >
+    </a>
+    <br>
+  </br>
+  <div class="dropdown">
+    <button class="dropbtn" ><a href="MAINPAGE.html">MAIN PAGE</a></button>
+  </div>
+  <div class="dropdown">
+    <button class="dropbtn">ABOUT CLUB</button>
+    <div class="dropdown-content" align="left">
+    <a href="HISTORYPAGE.html">History</a>
+    <a href="ORGANIZEPAGE.html">Organization chart</a>
+    <a href="FACILITYPAGE.html">Our facility</a>
+    <a href="SPONSORPAGE.html">Sponsors</a>
+    </div>
+  </div>
+  <div class="dropdown">
+    <button class="dropbtn">OUR TEAM</button>
+    <div class="dropdown-content"align="left">
+    <a href="TEAMMEMBERPAGE.html">Team template</a>
+    <a href="COMPETITIONSPAGE.html">Competitions</a>
+    </div>
+  </div>
+  <div class="dropdown">
+    <button class="dropbtn" ><a href="CONTACTPAGE.html">CONTACT</a></button>
+  </div>
+  <div class="dropdown">
+    <button class="dropbtn" ><a href="SHOP.html">ONLINE MARKET</a></button>
+  </div>
+</div>
+
+<br></br><br></br><br></br>
+<div>  <span class="a"><h1>SHOP</h1><br></br>
+  <img src="shop/shop1.png" width="200px" height="300px"  border="0" >
+  <span class="b"></span>
+  <img src="shop/shop2.png" width="200px" height="300px"  border="0" >
+  <div>
+    35€
+    <span class="e"></span>
+    35€
+  </div>
+    <div class="renk" >
+    <input type="number" id="box1" name="box" min="0" value="0" >
+    <span class="c"></span>
+    <span class="d"></span>
+    <input type="number" id="box2" name="box1" min="0" value="0">
+  </div>
+  <img src="shop/shop3.jpg" width="200px" height="300px"  border="0" >
+  <div>10€</div>
+  <div class="renk" >
+    <input type="number" id="box3" name="box2" min="0" max="9" value="0">
+  </div>
+  <span class="d"></span>
+  <button onclick="pop()">BUY</button>
+</span>
+
+      </div>
+      
+</body>
+</html>
